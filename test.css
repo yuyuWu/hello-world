@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 80%;
+    margin:0 auto;
+}
+a{
+    text-decoration: none;
+    color: #031817;
+}
+a:hover{
+    text-decoration: none;
+    color: #031817;
+}
+header{
+    height: 80px;
+    background-color: #eef2f4;
+    width:100%;
+
+
+}
+.title{
+    width: 80%;
+    margin: 0 auto;
+height: 100%;
+
+    background:chartreuse;
+}
+.title h1{
+    font-size: 24px;
+    padding-top: 28px;
+}
+
+#icon{
+
+    position: relative;
+right: 0;
+text-align: left;
+    float: right;
+    width: 25%;
+margin-top: -30px;
+display: block;
+    background-color: antiquewhite;
+}
+#icon a img{
+    margin-left: 35px;
+}
+.words{
+    position: absolute;
+    margin-top: 10px;
+    display: inline-block;
+
+}
+#section{
+border: 1px solid #dbdbfd;
+    width: 80%;
+    /*background-color: bisque;*/
+    /*background-color:#fdf8f3;*/
+    border-radius: 3%;
+    height: 566px;
+    margin: 38px auto;
+
+}
+ul{
+
+    list-style:none;
+}
+li{
+    float: left;
+}
+.box,.box1{
+    border: 1px solid #dbdbfd;
+    border-radius: 3%;
+    margin-top: 5%;
+    width: 42%;
+   /* background-color: #76dddc;*/
+    /*background-color: #fdf2ec;*/
+    height: 230px;
+
+}
+
+.box h3{
+    transition: 1s linear;
+    font-size: 24px;
+    margin-left: 55%;
+    margin-top: -115px;
+}
+.box h3:hover{
+
+    transform:rotateX(360deg);
+    -webkit-transform:rotateX(360deg); /* Safari and Chrome */
+    -moz-transform:rotateX(360deg); /* Firefox */
+}
+.box1 h3{
+    transition: 1s linear;
+    font-size: 24px;
+    margin-left: 55%;
+    margin-top: -115px;
+}
+.box1 h3:hover{
+
+    transform:rotateX(360deg);
+    -webkit-transform:rotateX(360deg); /* Safari and Chrome */
+    -moz-transform:rotateX(360deg); /* Firefox */
+}
+.box img{
+    transform: scale(0.8,0.8);
+    transition: 0.6s;
+    margin-top: 18px;
+}
+.box img:hover{
+    transform: scale(1.0,1.0);
+}
+.box1 img{
+    transform: scale(0.8,0.8);
+    transition: 0.6s;
+    margin-top: 18px;
+}
+.box1 img:hover{
+    transform: scale(1.0,1.0);
+}
+.box {
+
+    margin-left: 5%;
+
+
+
+}
+
+.box1{margin-left: 6%;
+
+}
